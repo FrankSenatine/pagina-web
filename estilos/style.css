@@ -216,3 +216,28 @@ i{
     background-size: cover;
     background-position: center;
 }
+.PiePagina{
+    background-color: black;
+}
+.texto nav li{
+    color: white ;
+    text-decoration: none;
+    
+
+}
+#titulo{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: none;
+}
+.logo{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    padding: auto;
+}
+.logo img{
+    width: 100%
+}
