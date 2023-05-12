@@ -181,6 +181,7 @@ i{
     display: flex;
     margin-top: 20px;
     justify-content: center;
+    margin-bottom: 20px;
 
 }
 .Juego{
@@ -218,9 +219,16 @@ i{
 }
 .PiePagina{
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.texto{
+    padding: 20px;
 }
 .texto nav li{
     color: white ;
+    
     text-decoration: none;
     
 
@@ -230,6 +238,7 @@ i{
     text-transform: uppercase;
     font-weight: bold;
     list-style: none;
+    
 }
 .logo{
     background-color: white;
@@ -237,7 +246,23 @@ i{
     height: 200px;
     justify-content: center;
     padding: auto;
+    margin-top: 60px;
 }
 .logo img{
     width: 100%
+}
+.redesSociales i{
+    background-color: rgb(101, 91, 91);
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Contacto{
+
+    color: white;
+    font-size: 30px;
+}
+.mapa{
+    margin: 30px;
+    height: 100%;
 }
