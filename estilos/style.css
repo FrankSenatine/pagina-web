@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/imagenes/fondo.jpg);
+    background-image: url(../imagenes/fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -149,7 +149,7 @@ i{
 
     margin:auto;
 
-    background-image: url(/imagenes/baner1.png);
+    background-image: url(../imagenes/baner1.png);
 
     background-size: 50% 100%;
 
@@ -158,21 +158,21 @@ i{
 }
 @keyframes Banner{
     0%, 30%{
-        background-image: url(/imagenes/baner1.png);
+        background-image: url(../imagenes/baner1.png);
         opacity: 1;
     }
     31%, 34%{
         opacity: 0.1;
     }
     35%, 65%{
-        background-image: url(/imagenes/baner2.png);
+        background-image: url(../imagenes/baner2.png);
         opacity: 1;
     }
     66%, 69%{
         opacity: 0.1;
     }
     70%, 100%{
-        background-image: url(/imagenes/baner3.jpg);
+        background-image: url(../imagenes/baner3.jpg);
         opacity: 1;
     }
 }
@@ -202,18 +202,18 @@ i{
 }
 
 #juego1{
-    background-image: url(/imagenes/juego1.jpg);
+    background-image: url(../imagenes/juego1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #juego2{
-    background-image: url(/imagenes/juego2.jpeg);
+    background-image: url(../imagenes/juego2.jpeg);
     background-size: cover;
     background-position: center;
 }
 #juego3{
-    background-image: url(/imagenes/juego3.jpg);
+    background-image: url(../imagenes/juego3.jpg);
     background-size: cover;
     background-position: center;
 }
