@@ -9,29 +9,76 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-.menu{
-    text-align: center;
-    display: flex;
-    justify-content:space-around;
-    background-color: rgb(130, 112, 213);
-}
-.logo{
-    justify-content: center;
-    justify-items: center;
-    border-color: black;
-}
-.header-logo-txt {
-    color: greenyellow;
-    margin-left: 16px;
-    font-size: 50px;
-    font-weight: bold;
-}
-.menu p{
-    font-weight: bold;
-    font-size: 20px;
-    margin: auto 20px;
 
+.header {
+    background-color: rgb(14, 13, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 5px 10%;
 }
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links a {
+    font-size: 30px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.header .nav-links a:hover{
+    color: brown;
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: darkcyan;
+    padding: 9px 25px;
+    background: blanchedalmond;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header .btn button:hover{
+    background-color: greenyellow;
+    color: blueviolet;
+    transform: scale(1.2);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
 #eleccion{
     padding-right: 50px;
     
@@ -240,7 +287,7 @@ i{
     list-style: none;
     
 }
-.logo{
+.logos{
     background-color: white;
     width: 200px;
     height: 200px;
@@ -248,7 +295,7 @@ i{
     padding: auto;
     margin-top: 60px;
 }
-.logo img{
+.logos img{
     width: 100%
 }
 .redesSociales i{
